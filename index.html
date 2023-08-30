@@ -71,7 +71,7 @@
 
                 <p class=" product-name text-xl font-semibold">K. Accessories</p>
 
-                <p class=" color-[#11111180]" ><span class="product-price">39.00</span> TK</p>
+                <p class="text-slate-400"><span class="product-price">39.00</span> TK</p>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@
 
                 <p class=" product-name text-xl font-semibold">K. Accessories</p>
 
-                <p class="color-[#11111180]" ><span class="product-price">25.00</span> TK</p>
+                <p class="text-slate-400"><span class="product-price">25.00</span> TK</p>
               </div>
             </div>
           </div>
@@ -113,7 +113,7 @@
 
                 <p class=" product-name text-xl font-semibold">K. Home Cooker</p>
 
-                <p class=" color-[#11111180]" ><span class="product-price">49.00</span>  TK</p>
+                <p class="text-slate-400"><span class="product-price">49.00</span> TK</p>
               </div>
             </div>
           </div>
@@ -187,7 +187,7 @@
 
                 <p class=" product-name text-xl font-semibold">K. Sports Back Cap</p>
 
-                <p class=" color-[#11111180]" ><span class="product-price">49.00</span>TK </p>
+                <p class=" color-[#11111180]"><span class="product-price">49.00</span>TK </p>
               </div>
             </div>
           </div>
@@ -208,7 +208,7 @@
 
                 <p class=" product-name text-xl font-semibold">K. Full Jersey Set</p>
 
-                <p class=" color-[#11111180]" ><span class="product-price">69.00</span> TK</p>
+                <p class=" color-[#11111180]"><span class="product-price">69.00</span> TK</p>
               </div>
             </div>
           </div>
@@ -229,7 +229,7 @@
 
                 <p class=" product-name text-xl font-semibold">K. Sports cates</p>
 
-                <p class="color-[#11111180]" ><span class="product-price">159.00 </span>TK</p>
+                <p class="text-slate-400"><span class="product-price">159.00 </span>TK</p>
               </div>
             </div>
           </div>
@@ -257,7 +257,7 @@
 
                 <p class=" product-name text-xl font-semibold">K. Single Relax Chair</p>
 
-                <p class=" color-[#11111180]" ><span class="product-price">185.00 </span>TK</p>
+                <p class="text-slate-400"><span class="product-price">185.00 </span>TK</p>
               </div>
             </div>
           </div>
@@ -278,7 +278,7 @@
 
                 <p class=" product-name text-xl font-semibold">K. Children play</p>
 
-                <p class="  color-[#11111180]" ><span class="product-price">299.00</span> TK</p>
+                <p class="text-slate-400"><span class="product-price">299.00</span> TK</p>
               </div>
             </div>
           </div>
@@ -299,7 +299,7 @@
 
                 <p class=" product-name text-xl font-semibold">K. Flexible Sofa</p>
 
-                <p class=" color-[#11111180]"><span id="product-price">339.00</span> TK</p>
+                <p class="text-slate-400"><span id="product-price">339.00</span> TK</p>
               </div>
             </div>
           </div>
@@ -308,6 +308,22 @@
     </div>
   </main>
   <script src="js/coupon-and-discount.js"></script>
+
+  <!-- Modal -->
+  <dialog id="purchase-modal" class="modal">
+    <form method="dialog" class="modal-box flex justify-center items-center">
+      <div class="flex flex-col justify-center items-center">
+        <img src="./images/congo.png" alt="">
+        <h3 class="font-bold text-7xl text-lg text-center">Congratulations</h3>
+        <p class="py-4 text-slate-400 text-center">You purchased the product</p>
+
+        <button id="confirm-purchase" class=" text-white text-xl font-semibold rounded-xl bg-[#E527B2] p-2 w-[80%]">Go
+          Home</button>
+
+      </div>
+    </form>
+  </dialog>
+
 </body>
 
 </html>

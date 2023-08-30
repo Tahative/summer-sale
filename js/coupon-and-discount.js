@@ -77,5 +77,32 @@ document.addEventListener("DOMContentLoaded", () => {
         applyButton.style.color = 'black';
       }
     });
-  });
+
+ 
+    
+      const purchaseModal = document.getElementById('purchase-modal');
+      const confirmPurchaseBtn = document.getElementById('confirm-purchase');
+      const cancelPurchaseBtn = document.getElementById('cancel-purchase');
+    
+      // Show the modal when Make Purchase button is clicked
+      makePurchaseBtn.addEventListener('click', () => {
+        purchaseModal.showModal();
+      });
+    
+      // Hide the modal when Cancel button is clicked
+      cancelPurchaseBtn.addEventListener('click', () => {
+        purchaseModal.close();
+      });
+    
+      // Handle confirmed purchase
+      confirmPurchaseBtn.addEventListener('click', () => {
+        // Perform actions you want to do when the purchase is confirmed
+        // For example: display a success message, reset the cart, etc.
+    
+        // After handling the purchase, you can close the modal
+        purchaseModal.close();
+      });
+    });
+    
+
   
